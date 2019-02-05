@@ -21,7 +21,7 @@ int main()
         if (bodies <= 50)
         {
                 cout<<"Hours = "<<hours<<".00"<<" People = "<<bodies<<" Rate = 11.00"<<endl;
-                cout<<"Your gross wage amount is $"<<hours * 11.00<<".00"<<endl;
+                cout<<"Your gross wage amount is $"<<hours * 11.00<<endl;
                 cout<<"Good Bye "<<name<<endl;
                 
         }
