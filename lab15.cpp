@@ -9,7 +9,7 @@ int main()
 
 
 
-        cout<<"What action do you want to perform? (a=add, s=subract, m=multiply, d=divide, x=mod)"<<endl;
+        cout<<"What action do you want to perform? (a=add, s=subtract, m=multiply, d=divide, x=mod)"<<endl;
         cin>>answer;
         cout<<"Enter first number"<<endl;
         cin>>first;
