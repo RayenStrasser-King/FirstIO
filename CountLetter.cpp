@@ -1,5 +1,5 @@
 #include <iostream>
-#include<bits/stdc++.h>
+#include <cctype>
 using namespace std;
 
 int CountLetter(string sentence, char let)
@@ -20,7 +20,7 @@ int CountLetter(string sentence, char let)
                 }
                 }
 
-        return 0;
+        return x;
 
         }
 
