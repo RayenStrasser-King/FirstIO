@@ -2,29 +2,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-string CountLetter(string sentence, char searching, int counter)
+int CountLetter(string sentence, char let)
 
 {
-        //char searching = '\0';
-        //string sentence ="";
-        //int counter = 0;
+        char L1;
+        int x = 0;
+        locale loc;
 
-        //cout<<"Enter a sentence."<<endl;
-        //getline (cin, sentence);
-        //cout<<"Enter a letter."<<endl;
-        //cin>>searching;
-        //transform(sentence.begin(), sentence.end(), sentence.begin(), ::tolower);
 
         for (int i = 0; i < sentence.length(); i++)
         {
+                L1 = tolower(sentence[i],loc);
 
-                if (sentence [i] == searching)
+                if (L1 == let)
                 {
-                        counter++;
+                        x = x =1;
                 }
-        }
-        cout<<"The letter "<<searching<<" occurred "<<counter<<" time(s)."<<endl;
+                }
 
         return 0;
 
-}
+        }
+
