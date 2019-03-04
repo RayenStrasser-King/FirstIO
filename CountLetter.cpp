@@ -9,11 +9,11 @@ string CountLetter(string sentence, char searching, int counter)
         //string sentence ="";
         //int counter = 0;
 
-        cout<<"Enter a sentence."<<endl;
-        getline (cin, sentence);
-        cout<<"Enter a letter."<<endl;
-        cin>>searching;
-        transform(sentence.begin(), sentence.end(), sentence.begin(), ::tolower);
+        //cout<<"Enter a sentence."<<endl;
+        //getline (cin, sentence);
+        //cout<<"Enter a letter."<<endl;
+        //cin>>searching;
+        //transform(sentence.begin(), sentence.end(), sentence.begin(), ::tolower);
 
         for (int i = 0; i < sentence.length(); i++)
         {
