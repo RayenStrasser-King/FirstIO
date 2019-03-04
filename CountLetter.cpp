@@ -16,11 +16,11 @@ int CountLetter(string sentence, char let)
 
                 if (L1 == let)
                 {
-                        x = x =1;
+                        x = x + 1;
                 }
-                }
+        }
 
         return x;
 
-        }
+}
 
