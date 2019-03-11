@@ -5,24 +5,28 @@ int main()
 {
         string name;
         string fname;
-        int bal;
+        string string1;
+        int bal = 0;
 
 
         cout<<"Enter your first name."<<endl;
         getline (cin, name);
         ifstream inx (name);
-        ofstream outx (name);
+        int numvalue;
 
         if (inx.good())
         {
-                cout<<"Welcome Back Jaime Raigoza"<< fname << endl;
+                getline (inx, string1);
+                inx>>numvalue;
+                cout<<"Welcome Back "<<string1 << endl;
                 cout<<"Here is a log of all your BALANCE activity."<<endl;
-                cout<<"Your balance is 1000"<<endl;
+                cout<<"Your balance is "<<numvalue<<endl;
 
         }
         
         else
         {
+                ofstream outx(name);
 
                 cout<<"Enter your FIRST and LAST name."<<endl;
                 getline (cin, fname);
@@ -32,12 +36,10 @@ int main()
                 cout<<"Enter your initial balance."<<endl;
                 cin>>bal;
                 
-                
                 outx<<bal<<endl;
-                
-
                 outx.close();
 
         }
+        inx.close();
         return 0;
 }
