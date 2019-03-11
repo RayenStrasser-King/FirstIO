@@ -15,7 +15,7 @@ int main()
 
         if (inx.good())
         {
-                cout<<"Welcome back "<< fname << endl;
+                cout<<"Welcome back Jamie Raigoza"<< fname << endl;
                 cout<<"Here is a log of all your BALANCE activity."<<endl;
                 cout<<"Your balance is 1000"<<endl;
 
